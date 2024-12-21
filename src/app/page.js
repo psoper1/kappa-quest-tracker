@@ -13,7 +13,7 @@ import { useRouter } from "next/navigation";
 export default function Home() {
   const router = useRouter();
 
-  // Navigate to trader pages
+  // Navigate to trader pagess
   const takeToPage = (page) => {
     router.push(`/${page}`);
   };
