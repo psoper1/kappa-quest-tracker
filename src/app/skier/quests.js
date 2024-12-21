@@ -1,0 +1,28 @@
+const quests = [
+    { trader: 'skier', name: 'Burning Rubber', key: 'burning_rubber', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Burning_Rubber' },
+    { trader: 'skier', name: 'Supplier', key: 'supplier', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Supplier' },
+    { trader: 'skier', name: 'The Extortionist', key: 'the_extortionist', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Extortionist' },
+    { trader: 'skier', name: 'Stirrup', key: 'stirrup', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Stirrup' },
+    { trader: 'skier', name: "What's on the Flash Drive?", key: 'what_on_the_flash_drive', wikiLink: "https://escapefromtarkov.fandom.com/wiki/What’s_on_the_Flash_Drive%3F" },
+    { trader: 'skier', name: 'Golden Swag', key: 'golden_swag', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Golden_Swag' },
+    { trader: 'skier', name: 'Chemical - Part 1', key: 'chemical_part_1', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_1' },
+    { trader: 'skier', name: 'Chemical - Part 2', key: 'chemical_part_2', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_2' },
+    { trader: 'skier', name: 'Chemical - Part 3', key: 'chemical_part_3', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_3' },
+    { trader: 'skier', name: 'Vitamins - Part 1', key: 'vitamins_part_1', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Vitamins_-_Part_1' },
+    { trader: 'skier', name: 'Vitamins - Part 2', key: 'vitamins_part_2', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Vitamins_-_Part_2' },
+    { trader: 'skier', name: 'Friend From the West - Part 1', key: 'friend_from_the_west_part_1', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Friend_From_the_West_-_Part_1' },
+    { trader: 'skier', name: 'Friend From the West - Part 2', key: 'friend_from_the_west_part_2', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Friend_From_the_West_-_Part_2' },
+    { trader: 'skier', name: 'Informed Means Armed', key: 'informed_means_armed', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Informed_Means_Armed' },
+    { trader: 'skier', name: 'Chumming', key: 'chumming', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Chumming' },
+    { trader: 'skier', name: 'Setup', key: 'setup', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Setup' },
+    { trader: 'skier', name: 'Flint', key: 'flint', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Flint' },
+    { trader: 'skier', name: 'Lend Lease - Part 1', key: 'lend_lease_part_1', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Lend-Lease_-_Part_1' },
+    { trader: 'skier', name: 'Rigged Game', key: 'rigged_game', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Rigged_Game' },
+    { trader: 'skier', name: 'Safe Corridor', key: 'safe_corridor', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Safe_Corridor' },
+    { trader: 'skier', name: 'Long Road', key: 'long_road', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Long_Road' },
+    { trader: 'skier', name: 'Missing Cargo', key: 'missing_cargo', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Missing_Cargo' },
+    { trader: 'skier', name: 'Exit Here', key: 'exit_here', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Exit_Here' },
+    { trader: 'skier', name: 'The Walls Have Eyes', key: 'the_walls_have_eyes', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Walls_Have_Eyes' },
+]
+
+export default quests;

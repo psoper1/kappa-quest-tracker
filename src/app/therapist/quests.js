@@ -1,0 +1,33 @@
+const quests = [
+        { trader: 'Therapist', name: 'First in Line', key: 'first_in_line', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/First_in_Line' },
+        { trader: 'Therapist', name: 'Shortage', key: 'shortage', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Shortage' },
+        { trader: 'Therapist', name: 'Operation Aquarius - Part 1', key: 'operation_aquarius_part_1', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Operation_Aquarius_-_Part_1' },
+        { trader: 'Therapist', name: 'Operation Aquarius - Part 2', key: 'operation_aquarius_part_2', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Operation_Aquarius_-_Part_2' },
+        { trader: 'Therapist', name: 'Sanitary Standards Part 1', key: 'sanitary_standards_part_1', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Sanitary_Standards_-_Part_1' },
+        { trader: 'Therapist', name: 'Sanitary Standards Part 2', key: 'sanitary_standards_part_2', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Sanitary_Standards_-_Part_2' },
+        { trader: 'Therapist', name: 'Painkiller', key: 'painkiller', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Painkiller' },
+        { trader: 'Therapist', name: 'Pharmacist', key: 'pharmacist', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Pharmacist' },
+        { trader: 'Therapist', name: 'Car Repair', key: 'car_repair', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Car_Repair' },
+        { trader: 'Therapist', name: 'Health Care Privacy Part 1', key: 'health_care_privacy_part_1', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_1' },
+        { trader: 'Therapist', name: 'Health Care Privacy Part 2', key: 'health_care_privacy_part_2', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_2' },
+        { trader: 'Therapist', name: 'Health Care Privacy Part 3', key: 'health_care_privacy_part_3', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_3' },
+        { trader: 'Therapist', name: 'Health Care Privacy Part 4', key: 'health_care_privacy_part_4', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_4' },
+        { trader: 'Therapist', name: 'Health Care Privacy Part 5', key: 'health_care_privacy_part_5', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_5' },
+        { trader: 'Therapist', name: 'Health Care Privacy Part 6', key: 'health_care_privacy_part_6', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_6' },
+        { trader: 'Therapist', name: 'Athlete', key: 'athlete', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Athlete' },
+        { trader: 'Therapist', name: 'Private Clinic', key: 'private_clinic', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Private_Clinic' },
+        { trader: 'Therapist', name: 'Decontamidation Service', key: 'decontamitation_service', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Decontamination_Service' },
+        { trader: 'Therapist', name: 'General Wares', key: 'general_wares', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/General_Wares' },
+        { trader: 'Therapist', name: 'Colleagues Part 1', key: 'colleagues_part_1', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Colleagues_-_Part_1' },
+        { trader: 'Therapist', name: 'Colleagues Part 2', key: 'colleagues_part_2', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Colleagues_-_Part_2' },
+        { trader: 'Therapist', name: 'Postman Pat Part 2', key: 'postman_pat_part_2', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Postman_Pat_-_Part_2' },
+        { trader: 'Therapist', name: 'Crisis', key: 'crisis', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Crisis' },
+        { trader: 'Therapist', name: 'Seaside Vacation', key: 'seaside_vacation', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Seaside_Vacation' },
+        { trader: 'Therapist', name: 'Lost Contact', key: 'lost_contact', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Lost_Contact' },
+        { trader: 'Therapist', name: 'Drug Trafficking', key: 'drug_trafficking', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Drug_Trafficking' },
+        { trader: 'Therapist', name: 'A Healthy Alternative - If turned in to Peacekeeper, mark this as completed', key: 'a_healthy_alternative', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/A_Healthy_Alternative' },
+        { trader: 'Therapist', name: 'All is Revealed - If "A Healthy Alternative" was turned in to Therapist. If not, mark as completed', key: 'all_is_revealed', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/All_Is_Revealed' },
+        // Add more quests here
+      ];
+
+      export default quests;

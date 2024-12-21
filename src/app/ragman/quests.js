@@ -1,0 +1,31 @@
+const quests = [
+    { trader: 'ragman', name: 'Only Business', key: 'only_business', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Only_Business' },
+    { trader: 'ragman', name: 'Make ULTRA Great Again', key: 'make_ultra_great_again', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Make_ULTRA_Great_Again' },
+    { trader: 'ragman', name: 'Big Sale', key: 'big_sale', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Big_Sale' },
+    { trader: 'ragman', name: 'A Fuel Matter', key: 'a_fuel_matter', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/A_Fuel_Matter' },
+    { trader: 'ragman', name: 'Inventory Check', key: 'inventory_check', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Inventory_Check' },
+    { trader: 'ragman', name: 'The Blood War - Part 1', key: 'the_blood_war_part_1', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Blood_of_War_-_Part_1' },
+    { trader: 'ragman', name: 'The Blood War - Part 2', key: 'the_blood_war_part_2', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Blood_of_War_-_Part_2' },
+    { trader: 'ragman', name: 'The Blood War - Part 3', key: 'the_blood_war_part_3', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Blood_of_War_-_Part_3' },
+    { trader: 'ragman', name: 'The Blood War - Part 4', key: 'the_blood_war_part_4', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Blood_of_War_-_Part_4' },
+    { trader: 'ragman', name: 'Dressed to Kill', key: 'dressed_to_kill', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Dressed_to_Kill' },
+    { trader: 'ragman', name: 'Gratitude', key: 'gratitude', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Gratitude' },
+    { trader: 'ragman', name: 'Hot Delivery', key: 'hot_delivery', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Hot_Delivery' },
+    { trader: 'ragman', name: 'Scavenger', key: 'scavenger', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Scavenger' },
+    { trader: 'ragman', name: 'Sales Night', key: 'sales_night', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Sales_Night' },
+    { trader: 'ragman', name: 'Database - Part 1', key: 'database_part_1', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Database_-_Part_1' },
+    { trader: 'ragman', name: 'Database - Part 2', key: 'database_part_2', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Database_-_Part_2' },
+    { trader: 'ragman', name: 'Minibus', key: 'minibus', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Minibus' },
+    { trader: 'ragman', name: 'Sew it Good - Part 1', key: 'sew_it_good_part_1', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Sew_it_Good_-_Part_1' },
+    { trader: 'ragman', name: 'Sew it Good - Part 2', key: 'sew_it_good_part_2', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Sew_it_Good_-_Part_2' },
+    { trader: 'ragman', name: 'Sew it Good - Part 3', key: 'sew_it_good_part_3', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Sew_it_Good_-_Part_3' },
+    { trader: 'ragman', name: 'Sew it Good - Part 4', key: 'sew_it_good_part_4', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Sew_it_Good_-_Part_4' },
+    { trader: 'ragman', name: 'The Key to Success', key: 'the_key_to_success', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Key_to_Success' },
+    { trader: 'ragman', name: 'No Fuss Needed', key: 'no_fuss_needed', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/No_Fuss_Needed' },
+    { trader: 'ragman', name: 'Supervisor', key: 'supervisor', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Supervisor' },
+    { trader: 'ragman', name: 'Living High is Not a Crime - Part 1', key: 'living_high_is_not_a_crime_part_1', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Living_High_is_Not_a_Crime_-_Part_1' },
+    { trader: 'ragman', name: 'Living High is Not a Crime - Part 2', key: 'living_high_is_not_a_crime_part_2', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Living_High_is_Not_a_Crime_-_Part_2' },
+    { trader: 'ragman', name: 'Charisma Brings Success', key: 'charisma_brings_success', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Charisma_Brings_Success' }
+]
+
+export default quests;

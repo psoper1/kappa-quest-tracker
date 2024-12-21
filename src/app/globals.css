@@ -3,6 +3,11 @@
   --foreground: #171717;
 }
 
+@font-face {
+  font-family: "TarkovFont";
+  src: url("../fonts/tarkov_font.otf") format("otf"),
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -17,9 +22,18 @@ body {
 }
 
 body {
+  background-image: url("../imgs/goons.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: brightness(50%);
+  height: 100vh;
+  margin: 0;
+}
+
+body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: TarkovFont;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -39,4 +53,224 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+ul li a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: blue;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.trader-image {
+  margin-bottom: 20px;
+}
+
+.quest-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.61);
+  backdrop-filter: blur(25px);
+}
+
+.quest {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.quest a {
+  color: #b68f3c;
+  text-decoration: none;
+}
+
+.quest a:hover {
+  color: #00aaff;
+  text-decoration: underline;
+}
+
+.main-page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.warning-div {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.warning-message {
+  position: relative;
+  width: 90%;
+  max-width: 600px;
+  color: #ffcc00;
+  background: #333;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.trader-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  padding-top: 30px;
+}
+
+.trader {
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.trader:hover {
+  transform: scale(1.1);
+  border-color: #ffa52f;
+}
+
+.trader-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.trader:hover .trader-name {
+  opacity: 1;
+}
+
+.trader::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: background 0.3s ease;
+  z-index: 1;
+}
+
+.trader:hover::before {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.trader img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Media query for screens smaller than 967px */
+@media (max-width: 967px) {
+  .main-page {
+    height: auto;
+    padding: 20px;
+  }
+
+  .warning-message {
+    position: static;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .trader-list {
+    position: static;
+    top: auto;
+    left: auto;
+    transform: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+button,
+input[type="file"] {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background: #444;
+  color: #fff;
+  border-radius: 5px;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  color: #000; 
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover,
+input[type="file"]:hover {
+  background: #555;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #ddd;
+  border-color: #aaa;
+}
+
+.nav-bar-items {
+  padding-top: 5px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.kappa-text {
+  display: flex;
+  justify-content: center;
+  font-size: 50;
+  padding-bottom: 5px;
 }
