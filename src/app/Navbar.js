@@ -8,6 +8,9 @@ export default function Navbar() {
         <li className='nav-bar-items'>
           <Link href="/">Home</Link>
         </li>
+        <li className='nav-bar-items'>
+        <Link href="/lightkeeper">Lightkeeper Tracker</Link>
+        </li>
       </ul>
     </nav>
   );

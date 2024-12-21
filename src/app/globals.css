@@ -274,3 +274,14 @@ input[type="file"]::-webkit-file-upload-button:hover {
   font-size: 50;
   padding-bottom: 5px;
 }
+
+.lightkeeper-image {
+  height: 127px;
+  width: 127px;
+}
+
+.lightkeeper-message {
+  background-color: #000;
+  margin-top: -5%;
+  margin-bottom: 10px;
+}
