@@ -11,7 +11,7 @@ const quests = [
     { trader: 'jaeger', name: 'Ambulance', key: 'ambulance', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Ambulance' },
     { trader: 'jaeger', name: 'The Huntsman Path - Secured Perimiter', key: 'thp_sp', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Secured_Perimeter' },
     { trader: 'jaeger', name: 'The Huntsman Path - Forest Cleaning', key: 'thp_f_c', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Forest_Cleaning' },
-    { trader: 'jaeger', name: 'The Huntsman Path - Forest Controller', key: 'thp_controller', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Controller' },
+    { trader: 'jaeger', name: 'The Huntsman Path - Controller', key: 'thp_controller', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Controller' },
     { trader: 'jaeger', name: 'The Huntsman Path - Evil Watchman', key: 'thp_e_w', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Evil_Watchman' },
     { trader: 'jaeger', name: 'The Huntsman Path - Trophy', key: 'thp_trophy', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Trophy' },
     { trader: 'jaeger', name: 'The Huntsman Path - Justice', key: 'thp_justice', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Justice' },

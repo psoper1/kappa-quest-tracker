@@ -7,7 +7,6 @@ const quests = [
     { trader: 'ragman', name: 'The Blood War - Part 1', key: 'the_blood_war_part_1', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Blood_of_War_-_Part_1' },
     { trader: 'ragman', name: 'The Blood War - Part 2', key: 'the_blood_war_part_2', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Blood_of_War_-_Part_2' },
     { trader: 'ragman', name: 'The Blood War - Part 3', key: 'the_blood_war_part_3', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Blood_of_War_-_Part_3' },
-    { trader: 'ragman', name: 'The Blood War - Part 4', key: 'the_blood_war_part_4', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/The_Blood_of_War_-_Part_4' },
     { trader: 'ragman', name: 'Dressed to Kill', key: 'dressed_to_kill', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Dressed_to_Kill' },
     { trader: 'ragman', name: 'Gratitude', key: 'gratitude', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Gratitude' },
     { trader: 'ragman', name: 'Hot Delivery', key: 'hot_delivery', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Hot_Delivery' },
