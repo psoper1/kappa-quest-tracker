@@ -33,6 +33,7 @@ const quests = [
     { trader: 'peacekeeper', name: 'Insomnia', key: 'insomnia', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Insomnia' },
     { trader: 'peacekeeper', name: 'Overpopulation', key: 'overpopulation', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Overpopulation' },
     { trader: 'peacekeeper', name: 'Revision - Lighthouse', key: 'revision_lighthouse', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/Revision_-_Lighthouse' },
+    { trader: 'peacekeeper', name: 'One Less Loose End (Only if you turned in the folders from A Healthy Alternative quest from Therapist)', key: 'one_less_loose_end', wikiLink: 'https://escapefromtarkov.fandom.com/wiki/One_Less_Loose_End' },
 ]
 
 export default quests;

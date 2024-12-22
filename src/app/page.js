@@ -13,7 +13,7 @@ import { useRouter } from "next/navigation";
 
 export default function Home() {
   const router = useRouter();
-  const TOTAL_QUESTS = 245;
+  const TOTAL_QUESTS = 246;
   const [completedQuests, setCompletedQuests] = useState(0);
 
   // Function to update progress
